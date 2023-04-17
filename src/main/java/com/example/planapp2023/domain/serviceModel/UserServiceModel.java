@@ -1,8 +1,5 @@
 package com.example.planapp2023.domain.serviceModel;
 
-import jakarta.validation.constraints.Email;
-import jakarta.validation.constraints.NotEmpty;
-import jakarta.validation.constraints.Size;
 
 public class UserServiceModel {
 

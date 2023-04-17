@@ -11,7 +11,7 @@
 
     <form class="mx-auto w-25 bg-blur rounded"
           th:method="post"
-          th:action="/users/register"
+          th:action="@{/users/register}"
           th:object="${userRegisterBindingModel}">
 
         <div class="form-group">
