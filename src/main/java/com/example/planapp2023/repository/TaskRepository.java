@@ -9,7 +9,6 @@ import java.util.List;
 @Repository
 public interface TaskRepository extends JpaRepository<TaskEntity, Long> {
 
-   // List<TaskEntity> findAllByUser_IdNot(Long user_id);
 
     List<TaskEntity> findAllByUser_Id(Long myId);
 }

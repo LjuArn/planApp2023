@@ -61,6 +61,7 @@ public class TaskServiceImpl implements TaskService {
 
     @Override
     public long countTasks(Long curUserId) {
+
         return findAllTasksNoUser(curUserId).stream().count();
     }
 
@@ -68,6 +69,8 @@ public class TaskServiceImpl implements TaskService {
     public Long countMyTasks(Long curUserId) {
         return findMyTasks(curUserId).stream().count();
     }
+
+
 
     @Override
     public void assaignMeTask(Long id) {
